@@ -7,14 +7,27 @@ The app comprises of the following
 - A user input, to input their location in latitude and longitude, to determine which of the casinos is closest.
 - Browser unit tests to test the user location input and the admin login.
 
-## Setup
+## Setup Summary
 
 To get the system up and running you will need to do the following:
 
 - Download the app and setup on the server
 - Create an empty database
-- Set the database and APP_URL settings in the .env file
+- Set the database and url settings in the .env file
 - Perform a database migration and seed
+
+## Setup on Server
+
+To setup the app you need to download it from git using the command:
+
+    git clone https://github.com/ascottp81/RocketX.git
+    
+When that has been downloaded, change the directory to the app directory, which will be RocketX.
+When you are in that directory, run the command:
+
+    composer update
+    
+This will install missing files.
 
 ## Settings
 
